@@ -1651,6 +1651,22 @@
     renderProducts();
     updateCalculator();
   </script>
-  <script src="/assets/sovereign-upgrade.js" defer></script>
+  
+
+  <script src="/sovereign_tutorial.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      if (window.createSovereignTutorial) {
+        window.createSovereignTutorial({
+          toolId: "storefront-catalog",
+          toolName: "YourDigitalSpace POD Showcase",
+          tagline: "Interactive live 3D showcase and catalog viewer for Print-on-Demand products!",
+          accentColor: "#EC4899",
+          steps: [{"icon": "\ud83c\udfea", "title": "Virtual Storefront Gallery", "desc": "Browse and interact with an avant-garde catalog of custom hoodies, posters, and accessories."}, {"icon": "\ud83e\uddca", "title": "Interactive 3D Product Views", "desc": "Spin and inspect products in full 3D to see how designs look from every angle."}, {"icon": "\ud83d\udcb3", "title": "Zero-Friction Checkout", "desc": "Connects directly to Stripe and Solana crypto rails with 100% unlocked open access."}]
+        });
+      }
+    });
+  </script>
+
 </body>
 </html>
