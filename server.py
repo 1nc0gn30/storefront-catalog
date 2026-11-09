@@ -14,6 +14,7 @@ import sys
 import os
 import json
 import time
+import threading
 from pathlib import Path
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 import urllib.parse
@@ -68,18 +69,39 @@ class SovereignCatalogHandler(SimpleHTTPRequestHandler):
             })
             return
 
+        # Ready-to-publish live drafts package
+        if path in ("/api/drafts", "/api/live-drafts"):
+            drafts_path = ROOT_DIR / "data" / "live_drafts.json"
+            if drafts_path.exists():
+                try:
+                    with open(drafts_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                    self.send_json(200, data)
+                    return
+                except Exception as e:
+                    self.send_json(500, {"error": f"Failed to read live drafts: {e}"})
+                    return
+            self.send_json(404, {"error": "Live drafts not yet compiled"})
+            return
+
         # Specific product payload: /api/payloads/<prod_id>
         if path.startswith("/api/payloads/"):
-            prod_id = path.replace("/api/payloads/", "").strip()
+            raw_id = path.replace("/api/payloads/", "").strip()
+            clean_id = raw_id[:-5] if raw_id.endswith(".json") else raw_id
+            clean_id = clean_id[:-9] if clean_id.endswith("_printify") else clean_id
             # Try finding the file in payloads/ or public/payloads/
             candidates = [
-                ROOT_DIR / "payloads" / f"{prod_id}_printify.json",
-                PUBLIC_DIR / "payloads" / f"{prod_id}_printify.json",
-                ROOT_DIR / "payloads" / f"{prod_id}.json",
-                PUBLIC_DIR / "payloads" / f"{prod_id}.json"
+                ROOT_DIR / "payloads" / f"{clean_id}_printify.json",
+                PUBLIC_DIR / "payloads" / f"{clean_id}_printify.json",
+                ROOT_DIR / "payloads" / f"{raw_id}.json",
+                PUBLIC_DIR / "payloads" / f"{raw_id}.json",
+                ROOT_DIR / "payloads" / raw_id,
+                PUBLIC_DIR / "payloads" / raw_id,
+                ROOT_DIR / "payloads" / f"{clean_id}.json",
+                PUBLIC_DIR / "payloads" / f"{clean_id}.json",
             ]
             for c in candidates:
-                if c.exists():
+                if c.exists() and c.is_file():
                     try:
                         with open(c, "r", encoding="utf-8") as pf:
                             data = json.load(pf)
@@ -89,7 +111,7 @@ class SovereignCatalogHandler(SimpleHTTPRequestHandler):
                         self.send_json(500, {"error": f"Failed to read payload: {e}"})
                         return
 
-            self.send_json(404, {"error": f"Payload for '{prod_id}' not found"})
+            self.send_json(404, {"error": f"Payload for '{raw_id}' not found"})
             return
 
         # Otherwise serve static files from public/
@@ -119,23 +141,41 @@ class SovereignCatalogHandler(SimpleHTTPRequestHandler):
             return
         sys.stderr.write(f"[{self.log_date_time_string()}] {args[0]}\n")
 
-def run(host="127.0.0.1", port=8143):
+def run(host="127.0.0.1", port=8118):
     server_address = (host, port)
     httpd = HTTPServer(server_address, SovereignCatalogHandler)
     print(f"✦ YourDigitalSpace Sovereign Catalog running on http://{host}:{port}")
     print(f"  Health endpoint: http://{host}:{port}/health")
     print(f"  Catalog API:     http://{host}:{port}/api/catalog")
     print(f"  Products API:    http://{host}:{port}/api/products")
+
+    # Start companion listener on alternate port (8143 if port==8118, 8118 if port==8143)
+    companion_port = 8143 if port == 8118 else (8118 if port == 8143 else None)
+    companion = None
+    if companion_port:
+        try:
+            companion = HTTPServer((host, companion_port), SovereignCatalogHandler)
+            threading.Thread(target=companion.serve_forever, daemon=True).start()
+            print(f"  Companion mirror bound on http://{host}:{companion_port}")
+        except Exception:
+            pass
+
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
         print("\nStopping catalog daemon...")
+        if companion:
+            try:
+                companion.server_close()
+            except Exception:
+                pass
         httpd.server_close()
 
 if __name__ == "__main__":
     import argparse
+    default_port = int(os.environ.get("PORT", 8118))
     parser = argparse.ArgumentParser(description="YourDigitalSpace Sovereign Showcase Daemon")
     parser.add_argument("--host", default="127.0.0.1", help="Host interface to bind")
-    parser.add_argument("--port", type=int, default=8143, help="Port to bind")
+    parser.add_argument("--port", type=int, default=default_port, help="Port to bind (default: 8118)")
     args = parser.parse_args()
     run(host=args.host, port=args.port)

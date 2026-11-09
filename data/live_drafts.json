@@ -1,0 +1,1744 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-08T23:55:00Z",
+  "engine": "POD Commerce Rail Specialist (Neal Frazier Tech / NullAI)",
+  "store_metadata": {
+    "store_name": "YourDigitalSpace",
+    "entity": "1nc0gn30 (@1nc0gn30)",
+    "target_demographic": "55+ Women (Grandmothers, Gardeners, Cottagecore, Crafters)",
+    "total_listings": 10,
+    "portfolio_financials": {
+      "total_retail_value": 203.41,
+      "total_production_cost": 52.2,
+      "total_marketplace_fees": 23.8,
+      "total_net_profit": 127.41,
+      "blended_net_margin": 62.6
+    }
+  },
+  "provider_routing_strategy": {
+    "us_domestic": "Printify (20% Premium subscription tier, lower base COGS)",
+    "eu_international": "Gelato (Localized in-country production, no customs/tariffs)"
+  },
+  "listings": [
+    {
+      "id": "prod-01-grandma-garden-sweatshirt",
+      "cadre": "apparel",
+      "title": "Grandma Garden Sweatshirt Custom Wildflower Crewneck Sweater, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+      "title_length": 136,
+      "tags": [
+        "grandma sweatshirt",
+        "gardener gift",
+        "wildflower sweater",
+        "grandmas garden",
+        "grandma crewneck",
+        "mom birthday gift",
+        "cottagecore clothes",
+        "comfort colors tee",
+        "plant lover gift",
+        "gift for grandma",
+        "botanical shirt",
+        "grandkids names",
+        "mothers day gift"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 34.99,
+        "production_cost": 12.5,
+        "marketplace_fees": 3.77,
+        "net_profit": 18.72,
+        "margin_percent": 53.5
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-01-grandma-garden-sweatshirt_canvas.png",
+        "canvas_resolution": [
+          900,
+          1080
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-01-grandma-garden-sweatshirt_mockup.jpg",
+        "mockup_resolution": [
+          1600,
+          1200
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 49,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-01-grandma-garden-sweatshirt_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Grandma Garden Sweatshirt Custom Wildflower Crewneck Sweater, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+          "description": "\ud83c\udf38 WELCOME TO GRANDMA'S GARDEN \u2014 WHERE LOVE BLOOMS!\n\nCelebrate the most cherished woman in your family with our handcrafted Grandma's Garden crewneck sweatshirt or garment-dyed tee. Each wildflower represents a grandchild's birth month, creating a deeply sentimental keepsake she will wear with pride.\n\n\u2728 WHY SHE WILL CHERISH THIS:\n\u2022 Ultra-soft Comfort Colors 1717 / Gildan 18000 heavy blend fleece (50% cotton / 50% polyester).\n\u2022 Premium direct-to-garment (DTG) print with eco-friendly water-based inks that won't crack or peel.\n\u2022 The ultimate gift for Mother's Day, Grandma's Birthday, Christmas, or pregnancy reveals!\n\n\ud83c\udf3f PERSONALIZATION OPTIONS:\nNames included: Emma, Liam, Olivia, Noah\nSimply enter each child's name and birth month in the personalization box, and our studio will hand-arrange each coordinating flower into her custom bouquet.\n\n\ud83d\udccf SIZING CHART (Unisex Relaxed Fit - True to Size):\n\u2022 S:  Width 20\" | Length 27\"\n\u2022 M:  Width 22\" | Length 28\"\n\u2022 L:  Width 24\" | Length 29\"\n\u2022 XL: Width 26\" | Length 30\"\n\u2022 2XL: Width 28\" | Length 31\"\n\u2022 3XL: Width 30\" | Length 32\"\n\ud83d\udca1 Tip: For that trendy oversized cozy aesthetic, size up 1 to 2 sizes!\n\n\ud83e\uddfa CARE & WASHING INSTRUCTIONS:\n\u2022 Machine wash cold, inside out, with like colors.\n\u2022 Use mild detergent; avoid bleach and fabric softeners.\n\u2022 Tumble dry on low or hang dry for longest graphic vibrancy.\n\u2022 Do not iron directly on the print.\n\n\ud83d\ude9a FAST US PRODUCTION & SHIPPING:\n\u2022 Handcrafted and printed in the USA in 2\u20134 business days.\n\u2022 Standard tracked shipping: 3\u20135 business days to your doorstep.\n\n\ud83d\udc96 100% HAPPINESS GUARANTEE: If she doesn't absolutely tear up with joy, message us for a free replacement!",
+          "state": "draft",
+          "price": {
+            "amount": 3499,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "grandma sweatshirt",
+            "gardener gift",
+            "wildflower sweater",
+            "grandmas garden",
+            "grandma crewneck",
+            "mom birthday gift",
+            "cottagecore clothes",
+            "comfort colors tee",
+            "plant lover gift",
+            "gift for grandma",
+            "botanical shirt",
+            "grandkids names",
+            "mothers day gift"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_5ce05db9",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "grandma-garden-sweatshirt-custom-wildflower-crewneck-sweater-custom-wildflower-sweater-personalized-grandma-gift-mothers-day-crewneck",
+        "title": "Grandma Garden Sweatshirt Custom Wildflower Crewneck Sweater, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Grandma Garden Sweatshirt Custom Wildflower Crewneck Sweater, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+          "handle": "grandma-garden-sweatshirt-custom-wildflower-crewneck-sweater-custom-wildflower-sweater-personalized-grandma-gift-mothers-day-crewneck",
+          "bodyHtml": "<p>\ud83c\udf38 WELCOME TO GRANDMA'S GARDEN \u2014 WHERE LOVE BLOOMS!</p>\n<p>Celebrate the most cherished woman in your family with our handcrafted Grandma's Garden crewneck sweatshirt or garment-dyed tee. Each wildflower represents a grandchild's birth month, creating a deeply sentimental keepsake she will wear with pride.</p>\n<p>\u2728 WHY SHE WILL CHERISH THIS:</p>\n<ul><li>Ultra-soft Comfort Colors 1717 / Gildan 18000 heavy blend fleece (50% cotton / 50% polyester).</li>\n<li>Premium direct-to-garment (DTG) print with eco-friendly water-based inks that won't crack or peel.</li>\n<li>The ultimate gift for Mother's Day, Grandma's Birthday, Christmas, or pregnancy reveals!</li>\n</ul><p>\ud83c\udf3f PERSONALIZATION OPTIONS:</p>\n<p>Names included: Emma, Liam, Olivia, Noah</p>\n<p>Simply enter each child's name and birth month in the personalization box, and our studio will hand-arrange each coordinating flower into her custom bouquet.</p>\n<p>\ud83d\udccf SIZING CHART (Unisex Relaxed Fit - True to Size):</p>\n<ul><li>S:  Width 20\" | Length 27\"</li>\n<li>M:  Width 22\" | Length 28\"</li>\n<li>L:  Width 24\" | Length 29\"</li>\n<li>XL: Width 26\" | Length 30\"</li>\n<li>2XL: Width 28\" | Length 31\"</li>\n<li>3XL: Width 30\" | Length 32\"</li>\n</ul><p>\ud83d\udca1 Tip: For that trendy oversized cozy aesthetic, size up 1 to 2 sizes!</p>\n<p>\ud83e\uddfa CARE & WASHING INSTRUCTIONS:</p>\n<ul><li>Machine wash cold, inside out, with like colors.</li>\n<li>Use mild detergent; avoid bleach and fabric softeners.</li>\n<li>Tumble dry on low or hang dry for longest graphic vibrancy.</li>\n<li>Do not iron directly on the print.</li>\n</ul><p>\ud83d\ude9a FAST US PRODUCTION & SHIPPING:</p>\n<ul><li>Handcrafted and printed in the USA in 2\u20134 business days.</li>\n<li>Standard tracked shipping: 3\u20135 business days to your doorstep.</li>\n</ul><p>\ud83d\udc96 100% HAPPINESS GUARANTEE: If she doesn't absolutely tear up with joy, message us for a free replacement!</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "apparel",
+          "tags": [
+            "grandma sweatshirt",
+            "gardener gift",
+            "wildflower sweater",
+            "grandmas garden",
+            "grandma crewneck",
+            "mom birthday gift",
+            "cottagecore clothes",
+            "comfort colors tee",
+            "plant lover gift",
+            "gift for grandma",
+            "botanical shirt",
+            "grandkids names",
+            "mothers day gift"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "34.99",
+              "compareAtPrice": "43.74",
+              "sku": "YDS-GRANDMA--S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "34.99",
+              "compareAtPrice": "43.74",
+              "sku": "YDS-GRANDMA--M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "34.99",
+              "compareAtPrice": "43.74",
+              "sku": "YDS-GRANDMA--L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "34.99",
+              "compareAtPrice": "43.74",
+              "sku": "YDS-GRANDMA--XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "34.99",
+              "compareAtPrice": "43.74",
+              "sku": "YDS-GRANDMA--2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-01-grandma-garden-sweatshirt_mockup.jpg",
+              "altText": "Grandma Garden Sweatshirt Custom Wildflower Crewneck Sweater, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck"
+            }
+          ],
+          "seo": {
+            "title": "Grandma Garden Sweatshirt Custom Wildflower Crewneck Sweater, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck | Premium Gift",
+            "description": "\ud83c\udf38 WELCOME TO GRANDMA'S GARDEN \u2014 WHERE LOVE BLOOMS!\n\nCelebrate the most cherished woman in your family with our handcrafted Grandma's Garden crewneck sweats"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-02-gardening-era-tee",
+      "cadre": "apparel",
+      "title": "In My Gardening Era Shirt Botanical Wildflower Plant Lover Tee, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+      "title_length": 138,
+      "tags": [
+        "grandma sweatshirt",
+        "gardener gift",
+        "wildflower sweater",
+        "grandmas garden",
+        "grandma crewneck",
+        "mom birthday gift",
+        "cottagecore clothes",
+        "comfort colors tee",
+        "plant lover gift",
+        "gift for grandma",
+        "botanical shirt",
+        "grandkids names",
+        "mothers day gift"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 28.99,
+        "production_cost": 10.5,
+        "marketplace_fees": 3.2,
+        "net_profit": 15.29,
+        "margin_percent": 52.7
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-02-gardening-era-tee_canvas.png",
+        "canvas_resolution": [
+          900,
+          1080
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-02-gardening-era-tee_mockup.jpg",
+        "mockup_resolution": [
+          1600,
+          1200
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-02-gardening-era-tee_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "In My Gardening Era Shirt Botanical Wildflower Plant Lover Tee, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+          "description": "\ud83c\udf38 WELCOME TO GRANDMA'S GARDEN \u2014 WHERE LOVE BLOOMS!\n\nCelebrate the most cherished woman in your family with our handcrafted Grandma's Garden crewneck sweatshirt or garment-dyed tee. Each wildflower represents a grandchild's birth month, creating a deeply sentimental keepsake she will wear with pride.\n\n\u2728 WHY SHE WILL CHERISH THIS:\n\u2022 Ultra-soft Comfort Colors 1717 / Gildan 18000 heavy blend fleece (50% cotton / 50% polyester).\n\u2022 Premium direct-to-garment (DTG) print with eco-friendly water-based inks that won't crack or peel.\n\u2022 The ultimate gift for Mother's Day, Grandma's Birthday, Christmas, or pregnancy reveals!\n\n\ud83c\udf3f PERSONALIZATION OPTIONS:\nNames included: Emma, Liam, Olivia, Noah\nSimply enter each child's name and birth month in the personalization box, and our studio will hand-arrange each coordinating flower into her custom bouquet.\n\n\ud83d\udccf SIZING CHART (Unisex Relaxed Fit - True to Size):\n\u2022 S:  Width 20\" | Length 27\"\n\u2022 M:  Width 22\" | Length 28\"\n\u2022 L:  Width 24\" | Length 29\"\n\u2022 XL: Width 26\" | Length 30\"\n\u2022 2XL: Width 28\" | Length 31\"\n\u2022 3XL: Width 30\" | Length 32\"\n\ud83d\udca1 Tip: For that trendy oversized cozy aesthetic, size up 1 to 2 sizes!\n\n\ud83e\uddfa CARE & WASHING INSTRUCTIONS:\n\u2022 Machine wash cold, inside out, with like colors.\n\u2022 Use mild detergent; avoid bleach and fabric softeners.\n\u2022 Tumble dry on low or hang dry for longest graphic vibrancy.\n\u2022 Do not iron directly on the print.\n\n\ud83d\ude9a FAST US PRODUCTION & SHIPPING:\n\u2022 Handcrafted and printed in the USA in 2\u20134 business days.\n\u2022 Standard tracked shipping: 3\u20135 business days to your doorstep.\n\n\ud83d\udc96 100% HAPPINESS GUARANTEE: If she doesn't absolutely tear up with joy, message us for a free replacement!",
+          "state": "draft",
+          "price": {
+            "amount": 2899,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "grandma sweatshirt",
+            "gardener gift",
+            "wildflower sweater",
+            "grandmas garden",
+            "grandma crewneck",
+            "mom birthday gift",
+            "cottagecore clothes",
+            "comfort colors tee",
+            "plant lover gift",
+            "gift for grandma",
+            "botanical shirt",
+            "grandkids names",
+            "mothers day gift"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_eca9a1e4",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "in-my-gardening-era-shirt-botanical-wildflower-plant-lover-tee-custom-wildflower-sweater-personalized-grandma-gift-mothers-day-crewneck",
+        "title": "In My Gardening Era Shirt Botanical Wildflower Plant Lover Tee, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "In My Gardening Era Shirt Botanical Wildflower Plant Lover Tee, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck",
+          "handle": "in-my-gardening-era-shirt-botanical-wildflower-plant-lover-tee-custom-wildflower-sweater-personalized-grandma-gift-mothers-day-crewneck",
+          "bodyHtml": "<p>\ud83c\udf38 WELCOME TO GRANDMA'S GARDEN \u2014 WHERE LOVE BLOOMS!</p>\n<p>Celebrate the most cherished woman in your family with our handcrafted Grandma's Garden crewneck sweatshirt or garment-dyed tee. Each wildflower represents a grandchild's birth month, creating a deeply sentimental keepsake she will wear with pride.</p>\n<p>\u2728 WHY SHE WILL CHERISH THIS:</p>\n<ul><li>Ultra-soft Comfort Colors 1717 / Gildan 18000 heavy blend fleece (50% cotton / 50% polyester).</li>\n<li>Premium direct-to-garment (DTG) print with eco-friendly water-based inks that won't crack or peel.</li>\n<li>The ultimate gift for Mother's Day, Grandma's Birthday, Christmas, or pregnancy reveals!</li>\n</ul><p>\ud83c\udf3f PERSONALIZATION OPTIONS:</p>\n<p>Names included: Emma, Liam, Olivia, Noah</p>\n<p>Simply enter each child's name and birth month in the personalization box, and our studio will hand-arrange each coordinating flower into her custom bouquet.</p>\n<p>\ud83d\udccf SIZING CHART (Unisex Relaxed Fit - True to Size):</p>\n<ul><li>S:  Width 20\" | Length 27\"</li>\n<li>M:  Width 22\" | Length 28\"</li>\n<li>L:  Width 24\" | Length 29\"</li>\n<li>XL: Width 26\" | Length 30\"</li>\n<li>2XL: Width 28\" | Length 31\"</li>\n<li>3XL: Width 30\" | Length 32\"</li>\n</ul><p>\ud83d\udca1 Tip: For that trendy oversized cozy aesthetic, size up 1 to 2 sizes!</p>\n<p>\ud83e\uddfa CARE & WASHING INSTRUCTIONS:</p>\n<ul><li>Machine wash cold, inside out, with like colors.</li>\n<li>Use mild detergent; avoid bleach and fabric softeners.</li>\n<li>Tumble dry on low or hang dry for longest graphic vibrancy.</li>\n<li>Do not iron directly on the print.</li>\n</ul><p>\ud83d\ude9a FAST US PRODUCTION & SHIPPING:</p>\n<ul><li>Handcrafted and printed in the USA in 2\u20134 business days.</li>\n<li>Standard tracked shipping: 3\u20135 business days to your doorstep.</li>\n</ul><p>\ud83d\udc96 100% HAPPINESS GUARANTEE: If she doesn't absolutely tear up with joy, message us for a free replacement!</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "apparel",
+          "tags": [
+            "grandma sweatshirt",
+            "gardener gift",
+            "wildflower sweater",
+            "grandmas garden",
+            "grandma crewneck",
+            "mom birthday gift",
+            "cottagecore clothes",
+            "comfort colors tee",
+            "plant lover gift",
+            "gift for grandma",
+            "botanical shirt",
+            "grandkids names",
+            "mothers day gift"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "28.99",
+              "compareAtPrice": "36.24",
+              "sku": "YDS-IN-MY-GA-S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "28.99",
+              "compareAtPrice": "36.24",
+              "sku": "YDS-IN-MY-GA-M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "28.99",
+              "compareAtPrice": "36.24",
+              "sku": "YDS-IN-MY-GA-L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "28.99",
+              "compareAtPrice": "36.24",
+              "sku": "YDS-IN-MY-GA-XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "28.99",
+              "compareAtPrice": "36.24",
+              "sku": "YDS-IN-MY-GA-2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-02-gardening-era-tee_mockup.jpg",
+              "altText": "In My Gardening Era Shirt Botanical Wildflower Plant Lover Tee, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck"
+            }
+          ],
+          "seo": {
+            "title": "In My Gardening Era Shirt Botanical Wildflower Plant Lover Tee, Custom Wildflower Sweater, Personalized Grandma Gift, Mothers Day Crewneck | Premium Gift",
+            "description": "\ud83c\udf38 WELCOME TO GRANDMA'S GARDEN \u2014 WHERE LOVE BLOOMS!\n\nCelebrate the most cherished woman in your family with our handcrafted Grandma's Garden crewneck sweats"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-03-cozy-songbirds-mug",
+      "cadre": "mugs",
+      "title": "Cozy Backyard Songbirds Coffee Mug 15oz Bird Watcher Tea Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+      "title_length": 131,
+      "tags": [
+        "bird watcher gift",
+        "watercolor bird mug",
+        "cottagecore mug",
+        "bird lover gift",
+        "coffee mug 15oz",
+        "tea lover cup",
+        "cardinal mug",
+        "backyard birds",
+        "grandma mug",
+        "garden lover gift",
+        "ceramic coffee mug",
+        "nature coffee cup",
+        "cute bird gifts"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 21.99,
+        "production_cost": 6.8,
+        "marketplace_fees": 2.54,
+        "net_profit": 12.65,
+        "margin_percent": 57.5
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-03-cozy-songbirds-mug_canvas.png",
+        "canvas_resolution": [
+          400,
+          400
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-03-cozy-songbirds-mug_mockup.jpg",
+        "mockup_resolution": [
+          1400,
+          1400
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 68,
+        "print_provider_id": 26,
+        "payload_file": "payloads/prod-03-cozy-songbirds-mug_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 69150647,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Cozy Backyard Songbirds Coffee Mug 15oz Bird Watcher Tea Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+          "description": "\ud83d\udc26 BRING THE SERENITY OF NATURE TO HER MORNING COFFEE\n\nStart every peaceful morning with our whimsical watercolor songbirds ceramic mug. Featuring fluffy chickadees, eastern bluebirds, and sweet backyard companions perched beside vintage tea porcelain, this mug brings nostalgic warmth to every sip of coffee, tea, or cocoa.\n\n\ud83c\udf3f PRODUCT HIGHLIGHTS:\n\u2022 Large 15oz size with ergonomic C-handle for cozy two-handed holding.\n\u2022 Vibrant dual-sided wraparound printing so the artwork is visible whether left- or right-handed.\n\u2022 Microwave and top-rack dishwasher safe for easy everyday enjoyment.\n\n\u2615 SPECIFICATIONS:\n\u2022 Capacity: 15 fluid ounces (0.44 L)\n\u2022 Height: 4.7\" | Diameter: 3.4\"\n\u2022 Material: 100% High-Grade White Ceramic\n\n\u2728 CARE: 100% Dishwasher & Microwave Safe! Printed with lead-free, non-toxic sublimation inks.\n\n\ud83c\udf81 PERFECT GIFT FOR:\n\u2022 Birdwatchers, garden club members, nature lovers, and morning tea enthusiasts.\n\u2022 Thoughtful Christmas, Mother's Day, or retirement present for Mom or Grandma.\n\n\ud83d\udce6 SAFELY PACKAGED: Shipped in custom molded crush-proof styrofoam-free mailers to guarantee safe arrival!",
+          "state": "draft",
+          "price": {
+            "amount": 2199,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "bird watcher gift",
+            "watercolor bird mug",
+            "cottagecore mug",
+            "bird lover gift",
+            "coffee mug 15oz",
+            "tea lover cup",
+            "cardinal mug",
+            "backyard birds",
+            "grandma mug",
+            "garden lover gift",
+            "ceramic coffee mug",
+            "nature coffee cup",
+            "cute bird gifts"
+          ],
+          "taxonomy_id": 69150647,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_afcf9ac4",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "cozy-backyard-songbirds-coffee-mug-15oz-bird-watcher-tea-cup-bird-watcher-gift-cozy-cottagecore-tea-cup-nature-lover-ceramic-mug",
+        "title": "Cozy Backyard Songbirds Coffee Mug 15oz Bird Watcher Tea Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Cozy Backyard Songbirds Coffee Mug 15oz Bird Watcher Tea Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+          "handle": "cozy-backyard-songbirds-coffee-mug-15oz-bird-watcher-tea-cup-bird-watcher-gift-cozy-cottagecore-tea-cup-nature-lover-ceramic-mug",
+          "bodyHtml": "<p>\ud83d\udc26 BRING THE SERENITY OF NATURE TO HER MORNING COFFEE</p>\n<p>Start every peaceful morning with our whimsical watercolor songbirds ceramic mug. Featuring fluffy chickadees, eastern bluebirds, and sweet backyard companions perched beside vintage tea porcelain, this mug brings nostalgic warmth to every sip of coffee, tea, or cocoa.</p>\n<p>\ud83c\udf3f PRODUCT HIGHLIGHTS:</p>\n<ul><li>Large 15oz size with ergonomic C-handle for cozy two-handed holding.</li>\n<li>Vibrant dual-sided wraparound printing so the artwork is visible whether left- or right-handed.</li>\n<li>Microwave and top-rack dishwasher safe for easy everyday enjoyment.</li>\n</ul><p>\u2615 SPECIFICATIONS:</p>\n<ul><li>Capacity: 15 fluid ounces (0.44 L)</li>\n<li>Height: 4.7\" | Diameter: 3.4\"</li>\n<li>Material: 100% High-Grade White Ceramic</li>\n</ul><p>\u2728 CARE: 100% Dishwasher & Microwave Safe! Printed with lead-free, non-toxic sublimation inks.</p>\n<p>\ud83c\udf81 PERFECT GIFT FOR:</p>\n<ul><li>Birdwatchers, garden club members, nature lovers, and morning tea enthusiasts.</li>\n<li>Thoughtful Christmas, Mother's Day, or retirement present for Mom or Grandma.</li>\n</ul><p>\ud83d\udce6 SAFELY PACKAGED: Shipped in custom molded crush-proof styrofoam-free mailers to guarantee safe arrival!</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "mugs",
+          "tags": [
+            "bird watcher gift",
+            "watercolor bird mug",
+            "cottagecore mug",
+            "bird lover gift",
+            "coffee mug 15oz",
+            "tea lover cup",
+            "cardinal mug",
+            "backyard birds",
+            "grandma mug",
+            "garden lover gift",
+            "ceramic coffee mug",
+            "nature coffee cup",
+            "cute bird gifts"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "21.99",
+              "compareAtPrice": "27.49",
+              "sku": "YDS-COZY-BAC-S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "21.99",
+              "compareAtPrice": "27.49",
+              "sku": "YDS-COZY-BAC-M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "21.99",
+              "compareAtPrice": "27.49",
+              "sku": "YDS-COZY-BAC-L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "21.99",
+              "compareAtPrice": "27.49",
+              "sku": "YDS-COZY-BAC-XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "21.99",
+              "compareAtPrice": "27.49",
+              "sku": "YDS-COZY-BAC-2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-03-cozy-songbirds-mug_mockup.jpg",
+              "altText": "Cozy Backyard Songbirds Coffee Mug 15oz Bird Watcher Tea Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug"
+            }
+          ],
+          "seo": {
+            "title": "Cozy Backyard Songbirds Coffee Mug 15oz Bird Watcher Tea Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug | Premium Gift",
+            "description": "\ud83d\udc26 BRING THE SERENITY OF NATURE TO HER MORNING COFFEE\n\nStart every peaceful morning with our whimsical watercolor songbirds ceramic mug. Featuring fluffy ch"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-04-highland-cow-wreath-mug",
+      "cadre": "mugs",
+      "title": "Highland Cow Wildflower Mug Cute Farmhouse Animal Ceramic Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+      "title_length": 132,
+      "tags": [
+        "bird watcher gift",
+        "watercolor bird mug",
+        "cottagecore mug",
+        "bird lover gift",
+        "coffee mug 15oz",
+        "tea lover cup",
+        "cardinal mug",
+        "backyard birds",
+        "grandma mug",
+        "garden lover gift",
+        "ceramic coffee mug",
+        "nature coffee cup",
+        "cute bird gifts"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 22.99,
+        "production_cost": 7.2,
+        "marketplace_fees": 2.63,
+        "net_profit": 13.16,
+        "margin_percent": 57.2
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-04-highland-cow-wreath-mug_canvas.png",
+        "canvas_resolution": [
+          400,
+          400
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-04-highland-cow-wreath-mug_mockup.jpg",
+        "mockup_resolution": [
+          1400,
+          1400
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 68,
+        "print_provider_id": 26,
+        "payload_file": "payloads/prod-04-highland-cow-wreath-mug_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 69150647,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Highland Cow Wildflower Mug Cute Farmhouse Animal Ceramic Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+          "description": "\ud83d\udc26 BRING THE SERENITY OF NATURE TO HER MORNING COFFEE\n\nStart every peaceful morning with our whimsical watercolor songbirds ceramic mug. Featuring fluffy chickadees, eastern bluebirds, and sweet backyard companions perched beside vintage tea porcelain, this mug brings nostalgic warmth to every sip of coffee, tea, or cocoa.\n\n\ud83c\udf3f PRODUCT HIGHLIGHTS:\n\u2022 Large 15oz size with ergonomic C-handle for cozy two-handed holding.\n\u2022 Vibrant dual-sided wraparound printing so the artwork is visible whether left- or right-handed.\n\u2022 Microwave and top-rack dishwasher safe for easy everyday enjoyment.\n\n\u2615 SPECIFICATIONS:\n\u2022 Capacity: 15 fluid ounces (0.44 L)\n\u2022 Height: 4.7\" | Diameter: 3.4\"\n\u2022 Material: 100% High-Grade White Ceramic\n\n\u2728 CARE: 100% Dishwasher & Microwave Safe! Printed with lead-free, non-toxic sublimation inks.\n\n\ud83c\udf81 PERFECT GIFT FOR:\n\u2022 Birdwatchers, garden club members, nature lovers, and morning tea enthusiasts.\n\u2022 Thoughtful Christmas, Mother's Day, or retirement present for Mom or Grandma.\n\n\ud83d\udce6 SAFELY PACKAGED: Shipped in custom molded crush-proof styrofoam-free mailers to guarantee safe arrival!",
+          "state": "draft",
+          "price": {
+            "amount": 2299,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "bird watcher gift",
+            "watercolor bird mug",
+            "cottagecore mug",
+            "bird lover gift",
+            "coffee mug 15oz",
+            "tea lover cup",
+            "cardinal mug",
+            "backyard birds",
+            "grandma mug",
+            "garden lover gift",
+            "ceramic coffee mug",
+            "nature coffee cup",
+            "cute bird gifts"
+          ],
+          "taxonomy_id": 69150647,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_bf14801b",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "highland-cow-wildflower-mug-cute-farmhouse-animal-ceramic-cup-bird-watcher-gift-cozy-cottagecore-tea-cup-nature-lover-ceramic-mug",
+        "title": "Highland Cow Wildflower Mug Cute Farmhouse Animal Ceramic Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Highland Cow Wildflower Mug Cute Farmhouse Animal Ceramic Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug",
+          "handle": "highland-cow-wildflower-mug-cute-farmhouse-animal-ceramic-cup-bird-watcher-gift-cozy-cottagecore-tea-cup-nature-lover-ceramic-mug",
+          "bodyHtml": "<p>\ud83d\udc26 BRING THE SERENITY OF NATURE TO HER MORNING COFFEE</p>\n<p>Start every peaceful morning with our whimsical watercolor songbirds ceramic mug. Featuring fluffy chickadees, eastern bluebirds, and sweet backyard companions perched beside vintage tea porcelain, this mug brings nostalgic warmth to every sip of coffee, tea, or cocoa.</p>\n<p>\ud83c\udf3f PRODUCT HIGHLIGHTS:</p>\n<ul><li>Large 15oz size with ergonomic C-handle for cozy two-handed holding.</li>\n<li>Vibrant dual-sided wraparound printing so the artwork is visible whether left- or right-handed.</li>\n<li>Microwave and top-rack dishwasher safe for easy everyday enjoyment.</li>\n</ul><p>\u2615 SPECIFICATIONS:</p>\n<ul><li>Capacity: 15 fluid ounces (0.44 L)</li>\n<li>Height: 4.7\" | Diameter: 3.4\"</li>\n<li>Material: 100% High-Grade White Ceramic</li>\n</ul><p>\u2728 CARE: 100% Dishwasher & Microwave Safe! Printed with lead-free, non-toxic sublimation inks.</p>\n<p>\ud83c\udf81 PERFECT GIFT FOR:</p>\n<ul><li>Birdwatchers, garden club members, nature lovers, and morning tea enthusiasts.</li>\n<li>Thoughtful Christmas, Mother's Day, or retirement present for Mom or Grandma.</li>\n</ul><p>\ud83d\udce6 SAFELY PACKAGED: Shipped in custom molded crush-proof styrofoam-free mailers to guarantee safe arrival!</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "mugs",
+          "tags": [
+            "bird watcher gift",
+            "watercolor bird mug",
+            "cottagecore mug",
+            "bird lover gift",
+            "coffee mug 15oz",
+            "tea lover cup",
+            "cardinal mug",
+            "backyard birds",
+            "grandma mug",
+            "garden lover gift",
+            "ceramic coffee mug",
+            "nature coffee cup",
+            "cute bird gifts"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "22.99",
+              "compareAtPrice": "28.74",
+              "sku": "YDS-HIGHLAND-S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "22.99",
+              "compareAtPrice": "28.74",
+              "sku": "YDS-HIGHLAND-M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "22.99",
+              "compareAtPrice": "28.74",
+              "sku": "YDS-HIGHLAND-L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "22.99",
+              "compareAtPrice": "28.74",
+              "sku": "YDS-HIGHLAND-XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "22.99",
+              "compareAtPrice": "28.74",
+              "sku": "YDS-HIGHLAND-2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-04-highland-cow-wreath-mug_mockup.jpg",
+              "altText": "Highland Cow Wildflower Mug Cute Farmhouse Animal Ceramic Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug"
+            }
+          ],
+          "seo": {
+            "title": "Highland Cow Wildflower Mug Cute Farmhouse Animal Ceramic Cup, Bird Watcher Gift, Cozy Cottagecore Tea Cup, Nature Lover Ceramic Mug | Premium Gift",
+            "description": "\ud83d\udc26 BRING THE SERENITY OF NATURE TO HER MORNING COFFEE\n\nStart every peaceful morning with our whimsical watercolor songbirds ceramic mug. Featuring fluffy ch"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-05-french-lavender-tote",
+      "cadre": "totes",
+      "title": "Vintage French Lavender Canvas Tote Bag Botanical Market Bag, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+      "title_length": 132,
+      "tags": [
+        "french seed packet",
+        "canvas tote bag",
+        "farmers market tote",
+        "botanical tote",
+        "library book tote",
+        "gardener gift",
+        "cottagecore bag",
+        "lavender tote",
+        "heavy canvas tote",
+        "market shopping bag",
+        "flower market bag",
+        "vintage botanical",
+        "eco friendly bag"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 24.99,
+        "production_cost": 7.2,
+        "marketplace_fees": 2.82,
+        "net_profit": 14.97,
+        "margin_percent": 59.9
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-05-french-lavender-tote_canvas.png",
+        "canvas_resolution": [
+          720,
+          720
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-05-french-lavender-tote_mockup.jpg",
+        "mockup_resolution": [
+          1400,
+          1400
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-05-french-lavender-tote_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Vintage French Lavender Canvas Tote Bag Botanical Market Bag, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+          "description": "\ud83c\udf3b YOUR TIMELESS COMPANION FOR THE FARMERS MARKET & LIBRARY\n\nStep out in effortless French country style with our 12oz heavyweight cotton canvas tote bag. Featuring authentic 19th-century botanical seed catalog artwork with heirloom wildflowers and French lavender, this bag seamlessly balances vintage charm with everyday durability.\n\n\u2728 WHY YOU'LL REACH FOR THIS DAILY:\n\u2022 Heavy 12oz 100% natural cotton canvas holds heavy produce, books, and yarn without sagging.\n\u2022 Reinforced stitching on all stress points and durable 22\" shoulder straps.\n\u2022 Wide bottom gusset allows tote to stand upright while loading fresh sourdough, flowers, or library novels.\n\n\ud83d\udc5c DIMENSIONS:\n\u2022 Bag Size: 15\" Width x 16\" Height with 3\" Bottom Gusset\n\u2022 Handle Length: 22\" reinforced fabric straps (11\" drop for comfortable shoulder carry)\n\n\ud83e\uddfc CARE INSTRUCTIONS:\n\u2022 Spot clean with cold water and mild soap.\n\u2022 Air dry flat to preserve crisp shape and fabric sizing.\n\n\ud83c\udf3e SUSTAINABLE & REUSABLE: Replace plastic bags with a durable, heirloom-quality tote you will enjoy for years.",
+          "state": "draft",
+          "price": {
+            "amount": 2499,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "french seed packet",
+            "canvas tote bag",
+            "farmers market tote",
+            "botanical tote",
+            "library book tote",
+            "gardener gift",
+            "cottagecore bag",
+            "lavender tote",
+            "heavy canvas tote",
+            "market shopping bag",
+            "flower market bag",
+            "vintage botanical",
+            "eco friendly bag"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_312ac535",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "vintage-french-lavender-canvas-tote-bag-botanical-market-bag-farmers-market-bag-botanical-library-tote-heavyweight-garden-shopper",
+        "title": "Vintage French Lavender Canvas Tote Bag Botanical Market Bag, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Vintage French Lavender Canvas Tote Bag Botanical Market Bag, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+          "handle": "vintage-french-lavender-canvas-tote-bag-botanical-market-bag-farmers-market-bag-botanical-library-tote-heavyweight-garden-shopper",
+          "bodyHtml": "<p>\ud83c\udf3b YOUR TIMELESS COMPANION FOR THE FARMERS MARKET & LIBRARY</p>\n<p>Step out in effortless French country style with our 12oz heavyweight cotton canvas tote bag. Featuring authentic 19th-century botanical seed catalog artwork with heirloom wildflowers and French lavender, this bag seamlessly balances vintage charm with everyday durability.</p>\n<p>\u2728 WHY YOU'LL REACH FOR THIS DAILY:</p>\n<ul><li>Heavy 12oz 100% natural cotton canvas holds heavy produce, books, and yarn without sagging.</li>\n<li>Reinforced stitching on all stress points and durable 22\" shoulder straps.</li>\n<li>Wide bottom gusset allows tote to stand upright while loading fresh sourdough, flowers, or library novels.</li>\n</ul><p>\ud83d\udc5c DIMENSIONS:</p>\n<ul><li>Bag Size: 15\" Width x 16\" Height with 3\" Bottom Gusset</li>\n<li>Handle Length: 22\" reinforced fabric straps (11\" drop for comfortable shoulder carry)</li>\n</ul><p>\ud83e\uddfc CARE INSTRUCTIONS:</p>\n<ul><li>Spot clean with cold water and mild soap.</li>\n<li>Air dry flat to preserve crisp shape and fabric sizing.</li>\n</ul><p>\ud83c\udf3e SUSTAINABLE & REUSABLE: Replace plastic bags with a durable, heirloom-quality tote you will enjoy for years.</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "totes",
+          "tags": [
+            "french seed packet",
+            "canvas tote bag",
+            "farmers market tote",
+            "botanical tote",
+            "library book tote",
+            "gardener gift",
+            "cottagecore bag",
+            "lavender tote",
+            "heavy canvas tote",
+            "market shopping bag",
+            "flower market bag",
+            "vintage botanical",
+            "eco friendly bag"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-VINTAGE--S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-VINTAGE--M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-VINTAGE--L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-VINTAGE--XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-VINTAGE--2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-05-french-lavender-tote_mockup.jpg",
+              "altText": "Vintage French Lavender Canvas Tote Bag Botanical Market Bag, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper"
+            }
+          ],
+          "seo": {
+            "title": "Vintage French Lavender Canvas Tote Bag Botanical Market Bag, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper | Premium Gift",
+            "description": "\ud83c\udf3b YOUR TIMELESS COMPANION FOR THE FARMERS MARKET & LIBRARY\n\nStep out in effortless French country style with our 12oz heavyweight cotton canvas tote bag. F"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-06-reading-haven-tote",
+      "cadre": "totes",
+      "title": "Reading Is My Haven Book Club Tote Bag Cottagecore Library Tote, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+      "title_length": 135,
+      "tags": [
+        "french seed packet",
+        "canvas tote bag",
+        "farmers market tote",
+        "botanical tote",
+        "library book tote",
+        "gardener gift",
+        "cottagecore bag",
+        "lavender tote",
+        "heavy canvas tote",
+        "market shopping bag",
+        "flower market bag",
+        "vintage botanical",
+        "eco friendly bag"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 24.99,
+        "production_cost": 7.2,
+        "marketplace_fees": 2.82,
+        "net_profit": 14.97,
+        "margin_percent": 59.9
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-06-reading-haven-tote_canvas.png",
+        "canvas_resolution": [
+          720,
+          720
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-06-reading-haven-tote_mockup.jpg",
+        "mockup_resolution": [
+          1400,
+          1400
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-06-reading-haven-tote_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Reading Is My Haven Book Club Tote Bag Cottagecore Library Tote, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+          "description": "\ud83c\udf3b YOUR TIMELESS COMPANION FOR THE FARMERS MARKET & LIBRARY\n\nStep out in effortless French country style with our 12oz heavyweight cotton canvas tote bag. Featuring authentic 19th-century botanical seed catalog artwork with heirloom wildflowers and French lavender, this bag seamlessly balances vintage charm with everyday durability.\n\n\u2728 WHY YOU'LL REACH FOR THIS DAILY:\n\u2022 Heavy 12oz 100% natural cotton canvas holds heavy produce, books, and yarn without sagging.\n\u2022 Reinforced stitching on all stress points and durable 22\" shoulder straps.\n\u2022 Wide bottom gusset allows tote to stand upright while loading fresh sourdough, flowers, or library novels.\n\n\ud83d\udc5c DIMENSIONS:\n\u2022 Bag Size: 15\" Width x 16\" Height with 3\" Bottom Gusset\n\u2022 Handle Length: 22\" reinforced fabric straps (11\" drop for comfortable shoulder carry)\n\n\ud83e\uddfc CARE INSTRUCTIONS:\n\u2022 Spot clean with cold water and mild soap.\n\u2022 Air dry flat to preserve crisp shape and fabric sizing.\n\n\ud83c\udf3e SUSTAINABLE & REUSABLE: Replace plastic bags with a durable, heirloom-quality tote you will enjoy for years.",
+          "state": "draft",
+          "price": {
+            "amount": 2499,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "french seed packet",
+            "canvas tote bag",
+            "farmers market tote",
+            "botanical tote",
+            "library book tote",
+            "gardener gift",
+            "cottagecore bag",
+            "lavender tote",
+            "heavy canvas tote",
+            "market shopping bag",
+            "flower market bag",
+            "vintage botanical",
+            "eco friendly bag"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_d0b987fc",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "reading-is-my-haven-book-club-tote-bag-cottagecore-library-tote-farmers-market-bag-botanical-library-tote-heavyweight-garden-shopper",
+        "title": "Reading Is My Haven Book Club Tote Bag Cottagecore Library Tote, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Reading Is My Haven Book Club Tote Bag Cottagecore Library Tote, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper",
+          "handle": "reading-is-my-haven-book-club-tote-bag-cottagecore-library-tote-farmers-market-bag-botanical-library-tote-heavyweight-garden-shopper",
+          "bodyHtml": "<p>\ud83c\udf3b YOUR TIMELESS COMPANION FOR THE FARMERS MARKET & LIBRARY</p>\n<p>Step out in effortless French country style with our 12oz heavyweight cotton canvas tote bag. Featuring authentic 19th-century botanical seed catalog artwork with heirloom wildflowers and French lavender, this bag seamlessly balances vintage charm with everyday durability.</p>\n<p>\u2728 WHY YOU'LL REACH FOR THIS DAILY:</p>\n<ul><li>Heavy 12oz 100% natural cotton canvas holds heavy produce, books, and yarn without sagging.</li>\n<li>Reinforced stitching on all stress points and durable 22\" shoulder straps.</li>\n<li>Wide bottom gusset allows tote to stand upright while loading fresh sourdough, flowers, or library novels.</li>\n</ul><p>\ud83d\udc5c DIMENSIONS:</p>\n<ul><li>Bag Size: 15\" Width x 16\" Height with 3\" Bottom Gusset</li>\n<li>Handle Length: 22\" reinforced fabric straps (11\" drop for comfortable shoulder carry)</li>\n</ul><p>\ud83e\uddfc CARE INSTRUCTIONS:</p>\n<ul><li>Spot clean with cold water and mild soap.</li>\n<li>Air dry flat to preserve crisp shape and fabric sizing.</li>\n</ul><p>\ud83c\udf3e SUSTAINABLE & REUSABLE: Replace plastic bags with a durable, heirloom-quality tote you will enjoy for years.</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "totes",
+          "tags": [
+            "french seed packet",
+            "canvas tote bag",
+            "farmers market tote",
+            "botanical tote",
+            "library book tote",
+            "gardener gift",
+            "cottagecore bag",
+            "lavender tote",
+            "heavy canvas tote",
+            "market shopping bag",
+            "flower market bag",
+            "vintage botanical",
+            "eco friendly bag"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-READING--S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-READING--M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-READING--L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-READING--XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "24.99",
+              "compareAtPrice": "31.24",
+              "sku": "YDS-READING--2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-06-reading-haven-tote_mockup.jpg",
+              "altText": "Reading Is My Haven Book Club Tote Bag Cottagecore Library Tote, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper"
+            }
+          ],
+          "seo": {
+            "title": "Reading Is My Haven Book Club Tote Bag Cottagecore Library Tote, Farmers Market Bag, Botanical Library Tote, Heavyweight Garden Shopper | Premium Gift",
+            "description": "\ud83c\udf3b YOUR TIMELESS COMPANION FOR THE FARMERS MARKET & LIBRARY\n\nStep out in effortless French country style with our 12oz heavyweight cotton canvas tote bag. F"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-07-botanical-gallery-wall-art",
+      "cadre": "wall_art",
+      "title": "English Countryside Botanical Prints Set of 12 Wall Art Pack, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+      "title_length": 118,
+      "tags": [
+        "botanical wall art",
+        "vintage flower print",
+        "wildflower decor",
+        "digital download art",
+        "gallery wall set",
+        "cottagecore decor",
+        "printable wall art",
+        "farmhouse wall decor",
+        "living room prints",
+        "bathroom art print",
+        "vintage botanical",
+        "flower poster",
+        "large wall art"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 14.99,
+        "production_cost": 0.2,
+        "marketplace_fees": 1.87,
+        "net_profit": 12.92,
+        "margin_percent": 86.2
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-07-botanical-gallery-wall-art_canvas.png",
+        "canvas_resolution": [
+          900,
+          1200
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-07-botanical-gallery-wall-art_mockup.jpg",
+        "mockup_resolution": [
+          1600,
+          1200
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-07-botanical-gallery-wall-art_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "English Countryside Botanical Prints Set of 12 Wall Art Pack, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+          "description": "\ud83c\udf3f INSTANT COTTAGECORE CHARM: ENGLISH COUNTRYSIDE BOTANICAL GALLERY\n\nTransform your home into a tranquil English countryside cottage with this curated gallery set. Scanned from authentic antique naturalist herbarium plates and restored to pristine 300 DPI clarity, these botanical wildflowers add timeless elegance to living rooms, bedrooms, entryways, and powder baths.\n\n\u26a1 WHAT YOU RECEIVE IMMEDIATELY:\n\u2022 Instant access ZIP containing 5 ratio files per artwork (30+ total files).\n\u2022 Master Printing Guide PDF with paper recommendations and local print shop instructions.\n\u2022 Zero shipping fees and zero waiting \u2014 download and print within minutes!\n\n\ud83d\uddbc\ufe0f INCLUDED ASPECT RATIO FILES (Instant 300 DPI High-Res JPG/PDF):\n\u2022 2:3 Ratio: 4x6\", 8x12\", 12x18\", 16x24\", 20x30\", 24x36\"\n\u2022 3:4 Ratio: 6x8\", 9x12\", 12x16\", 18x24\"\n\u2022 4:5 Ratio: 4x5\", 8x10\", 12x15\", 16x20\"\n\u2022 11:14 Ratio: 11x14\", 22x28\"\n\u2022 ISO International: A5, A4, A3, A2, A1\n\n\ud83d\udda8\ufe0f PRINTING RECOMMENDATIONS:\n\u2022 Print at home on matte photo paper or archival cotton cardstock (200-300 GSM).\n\u2022 Or upload directly to Staples, Walgreens, Shutterfly, or Mpix for museum-quality framed prints.\n\n\ud83d\udca1 PLEASE NOTE: This is an instant DIGITAL DOWNLOAD product. No physical prints or frames will be mailed.",
+          "state": "draft",
+          "price": {
+            "amount": 1499,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "botanical wall art",
+            "vintage flower print",
+            "wildflower decor",
+            "digital download art",
+            "gallery wall set",
+            "cottagecore decor",
+            "printable wall art",
+            "farmhouse wall decor",
+            "living room prints",
+            "bathroom art print",
+            "vintage botanical",
+            "flower poster",
+            "large wall art"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_3aa23bf9",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "english-countryside-botanical-prints-set-of-12-wall-art-pack-printable-wildflower-wall-art-cottagecore-gallery-decor",
+        "title": "English Countryside Botanical Prints Set of 12 Wall Art Pack, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "English Countryside Botanical Prints Set of 12 Wall Art Pack, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+          "handle": "english-countryside-botanical-prints-set-of-12-wall-art-pack-printable-wildflower-wall-art-cottagecore-gallery-decor",
+          "bodyHtml": "<p>\ud83c\udf3f INSTANT COTTAGECORE CHARM: ENGLISH COUNTRYSIDE BOTANICAL GALLERY</p>\n<p>Transform your home into a tranquil English countryside cottage with this curated gallery set. Scanned from authentic antique naturalist herbarium plates and restored to pristine 300 DPI clarity, these botanical wildflowers add timeless elegance to living rooms, bedrooms, entryways, and powder baths.</p>\n<p>\u26a1 WHAT YOU RECEIVE IMMEDIATELY:</p>\n<ul><li>Instant access ZIP containing 5 ratio files per artwork (30+ total files).</li>\n<li>Master Printing Guide PDF with paper recommendations and local print shop instructions.</li>\n<li>Zero shipping fees and zero waiting \u2014 download and print within minutes!</li>\n</ul><p>\ud83d\uddbc\ufe0f INCLUDED ASPECT RATIO FILES (Instant 300 DPI High-Res JPG/PDF):</p>\n<ul><li>2:3 Ratio: 4x6\", 8x12\", 12x18\", 16x24\", 20x30\", 24x36\"</li>\n<li>3:4 Ratio: 6x8\", 9x12\", 12x16\", 18x24\"</li>\n<li>4:5 Ratio: 4x5\", 8x10\", 12x15\", 16x20\"</li>\n<li>11:14 Ratio: 11x14\", 22x28\"</li>\n<li>ISO International: A5, A4, A3, A2, A1</li>\n</ul><p>\ud83d\udda8\ufe0f PRINTING RECOMMENDATIONS:</p>\n<ul><li>Print at home on matte photo paper or archival cotton cardstock (200-300 GSM).</li>\n<li>Or upload directly to Staples, Walgreens, Shutterfly, or Mpix for museum-quality framed prints.</li>\n</ul><p>\ud83d\udca1 PLEASE NOTE: This is an instant DIGITAL DOWNLOAD product. No physical prints or frames will be mailed.</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "wall_art",
+          "tags": [
+            "botanical wall art",
+            "vintage flower print",
+            "wildflower decor",
+            "digital download art",
+            "gallery wall set",
+            "cottagecore decor",
+            "printable wall art",
+            "farmhouse wall decor",
+            "living room prints",
+            "bathroom art print",
+            "vintage botanical",
+            "flower poster",
+            "large wall art"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "14.99",
+              "compareAtPrice": "18.74",
+              "sku": "YDS-ENGLISH--S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "14.99",
+              "compareAtPrice": "18.74",
+              "sku": "YDS-ENGLISH--M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "14.99",
+              "compareAtPrice": "18.74",
+              "sku": "YDS-ENGLISH--L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "14.99",
+              "compareAtPrice": "18.74",
+              "sku": "YDS-ENGLISH--XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "14.99",
+              "compareAtPrice": "18.74",
+              "sku": "YDS-ENGLISH--2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-07-botanical-gallery-wall-art_mockup.jpg",
+              "altText": "English Countryside Botanical Prints Set of 12 Wall Art Pack, Printable Wildflower Wall Art, Cottagecore Gallery Decor"
+            }
+          ],
+          "seo": {
+            "title": "English Countryside Botanical Prints Set of 12 Wall Art Pack, Printable Wildflower Wall Art, Cottagecore Gallery Decor | Premium Gift",
+            "description": "\ud83c\udf3f INSTANT COTTAGECORE CHARM: ENGLISH COUNTRYSIDE BOTANICAL GALLERY\n\nTransform your home into a tranquil English countryside cottage with this curated galle"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-08-songbird-field-guide-art",
+      "cadre": "wall_art",
+      "title": "Vintage Songbird Field Guide Art Prints Set Watercolor Posters, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+      "title_length": 120,
+      "tags": [
+        "botanical wall art",
+        "vintage flower print",
+        "wildflower decor",
+        "digital download art",
+        "gallery wall set",
+        "cottagecore decor",
+        "printable wall art",
+        "farmhouse wall decor",
+        "living room prints",
+        "bathroom art print",
+        "vintage botanical",
+        "flower poster",
+        "large wall art"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 12.99,
+        "production_cost": 0.2,
+        "marketplace_fees": 1.68,
+        "net_profit": 11.11,
+        "margin_percent": 85.5
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-08-songbird-field-guide-art_canvas.png",
+        "canvas_resolution": [
+          900,
+          1200
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-08-songbird-field-guide-art_mockup.jpg",
+        "mockup_resolution": [
+          1600,
+          1200
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-08-songbird-field-guide-art_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "physical",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Vintage Songbird Field Guide Art Prints Set Watercolor Posters, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+          "description": "\ud83c\udf3f INSTANT COTTAGECORE CHARM: ENGLISH COUNTRYSIDE BOTANICAL GALLERY\n\nTransform your home into a tranquil English countryside cottage with this curated gallery set. Scanned from authentic antique naturalist herbarium plates and restored to pristine 300 DPI clarity, these botanical wildflowers add timeless elegance to living rooms, bedrooms, entryways, and powder baths.\n\n\u26a1 WHAT YOU RECEIVE IMMEDIATELY:\n\u2022 Instant access ZIP containing 5 ratio files per artwork (30+ total files).\n\u2022 Master Printing Guide PDF with paper recommendations and local print shop instructions.\n\u2022 Zero shipping fees and zero waiting \u2014 download and print within minutes!\n\n\ud83d\uddbc\ufe0f INCLUDED ASPECT RATIO FILES (Instant 300 DPI High-Res JPG/PDF):\n\u2022 2:3 Ratio: 4x6\", 8x12\", 12x18\", 16x24\", 20x30\", 24x36\"\n\u2022 3:4 Ratio: 6x8\", 9x12\", 12x16\", 18x24\"\n\u2022 4:5 Ratio: 4x5\", 8x10\", 12x15\", 16x20\"\n\u2022 11:14 Ratio: 11x14\", 22x28\"\n\u2022 ISO International: A5, A4, A3, A2, A1\n\n\ud83d\udda8\ufe0f PRINTING RECOMMENDATIONS:\n\u2022 Print at home on matte photo paper or archival cotton cardstock (200-300 GSM).\n\u2022 Or upload directly to Staples, Walgreens, Shutterfly, or Mpix for museum-quality framed prints.\n\n\ud83d\udca1 PLEASE NOTE: This is an instant DIGITAL DOWNLOAD product. No physical prints or frames will be mailed.",
+          "state": "draft",
+          "price": {
+            "amount": 1299,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "botanical wall art",
+            "vintage flower print",
+            "wildflower decor",
+            "digital download art",
+            "gallery wall set",
+            "cottagecore decor",
+            "printable wall art",
+            "farmhouse wall decor",
+            "living room prints",
+            "bathroom art print",
+            "vintage botanical",
+            "flower poster",
+            "large wall art"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_da5e9f93",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "vintage-songbird-field-guide-art-prints-set-watercolor-posters-printable-wildflower-wall-art-cottagecore-gallery-decor",
+        "title": "Vintage Songbird Field Guide Art Prints Set Watercolor Posters, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Vintage Songbird Field Guide Art Prints Set Watercolor Posters, Printable Wildflower Wall Art, Cottagecore Gallery Decor",
+          "handle": "vintage-songbird-field-guide-art-prints-set-watercolor-posters-printable-wildflower-wall-art-cottagecore-gallery-decor",
+          "bodyHtml": "<p>\ud83c\udf3f INSTANT COTTAGECORE CHARM: ENGLISH COUNTRYSIDE BOTANICAL GALLERY</p>\n<p>Transform your home into a tranquil English countryside cottage with this curated gallery set. Scanned from authentic antique naturalist herbarium plates and restored to pristine 300 DPI clarity, these botanical wildflowers add timeless elegance to living rooms, bedrooms, entryways, and powder baths.</p>\n<p>\u26a1 WHAT YOU RECEIVE IMMEDIATELY:</p>\n<ul><li>Instant access ZIP containing 5 ratio files per artwork (30+ total files).</li>\n<li>Master Printing Guide PDF with paper recommendations and local print shop instructions.</li>\n<li>Zero shipping fees and zero waiting \u2014 download and print within minutes!</li>\n</ul><p>\ud83d\uddbc\ufe0f INCLUDED ASPECT RATIO FILES (Instant 300 DPI High-Res JPG/PDF):</p>\n<ul><li>2:3 Ratio: 4x6\", 8x12\", 12x18\", 16x24\", 20x30\", 24x36\"</li>\n<li>3:4 Ratio: 6x8\", 9x12\", 12x16\", 18x24\"</li>\n<li>4:5 Ratio: 4x5\", 8x10\", 12x15\", 16x20\"</li>\n<li>11:14 Ratio: 11x14\", 22x28\"</li>\n<li>ISO International: A5, A4, A3, A2, A1</li>\n</ul><p>\ud83d\udda8\ufe0f PRINTING RECOMMENDATIONS:</p>\n<ul><li>Print at home on matte photo paper or archival cotton cardstock (200-300 GSM).</li>\n<li>Or upload directly to Staples, Walgreens, Shutterfly, or Mpix for museum-quality framed prints.</li>\n</ul><p>\ud83d\udca1 PLEASE NOTE: This is an instant DIGITAL DOWNLOAD product. No physical prints or frames will be mailed.</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "wall_art",
+          "tags": [
+            "botanical wall art",
+            "vintage flower print",
+            "wildflower decor",
+            "digital download art",
+            "gallery wall set",
+            "cottagecore decor",
+            "printable wall art",
+            "farmhouse wall decor",
+            "living room prints",
+            "bathroom art print",
+            "vintage botanical",
+            "flower poster",
+            "large wall art"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "12.99",
+              "compareAtPrice": "16.24",
+              "sku": "YDS-VINTAGE--S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "12.99",
+              "compareAtPrice": "16.24",
+              "sku": "YDS-VINTAGE--M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "12.99",
+              "compareAtPrice": "16.24",
+              "sku": "YDS-VINTAGE--L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "12.99",
+              "compareAtPrice": "16.24",
+              "sku": "YDS-VINTAGE--XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "12.99",
+              "compareAtPrice": "16.24",
+              "sku": "YDS-VINTAGE--2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-08-songbird-field-guide-art_mockup.jpg",
+              "altText": "Vintage Songbird Field Guide Art Prints Set Watercolor Posters, Printable Wildflower Wall Art, Cottagecore Gallery Decor"
+            }
+          ],
+          "seo": {
+            "title": "Vintage Songbird Field Guide Art Prints Set Watercolor Posters, Printable Wildflower Wall Art, Cottagecore Gallery Decor | Premium Gift",
+            "description": "\ud83c\udf3f INSTANT COTTAGECORE CHARM: ENGLISH COUNTRYSIDE BOTANICAL GALLERY\n\nTransform your home into a tranquil English countryside cottage with this curated galle"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-09-barn-star-quilt-pattern",
+      "cadre": "crafting",
+      "title": "Barn Star Quilt Pattern Blueprint Printable Template Vector Kit, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+      "title_length": 119,
+      "tags": [
+        "quilt pattern pdf",
+        "barn star quilt",
+        "lone star pattern",
+        "patchwork blueprint",
+        "quilting printable",
+        "quilt block pattern",
+        "quilter gift",
+        "traditional quilt",
+        "cutting guide pdf",
+        "quilt template",
+        "epp pattern",
+        "sewing project",
+        "craft blueprint"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 8.5,
+        "production_cost": 0.2,
+        "marketplace_fees": 1.26,
+        "net_profit": 7.04,
+        "margin_percent": 82.8
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-09-barn-star-quilt-pattern_canvas.png",
+        "canvas_resolution": [
+          720,
+          720
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-09-barn-star-quilt-pattern_mockup.jpg",
+        "mockup_resolution": [
+          1600,
+          1200
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-09-barn-star-quilt-pattern_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "download",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Barn Star Quilt Pattern Blueprint Printable Template Vector Kit, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+          "description": "\ud83e\uddf5 MASTER THE TIMELESS TRADITIONAL BARN STAR QUILT\n\nCreate an heirloom quilt that will be cherished across generations with our step-by-step Barn Star Blueprint. Engineered with clear vector diagrams, precision rotary cutting charts, and visual pressing arrows, this pattern takes all the frustration out of matching 8-point diamond seams.\n\n\u2728 WHAT'S INSIDE THE BLUEPRINT:\n\u2022 Complete fabric yardage requirements for Baby, Throw, and Queen sizes.\n\u2022 Color-coded strip piecing charts that save hours of hand cutting.\n\u2022 Full-size printable paper templates (100% scale - no enlargement needed).\n\u2022 Master Pressing Roadmap to ensure your center points nest flat without bulk.\n\n\ud83d\udcd0 PATTERN SPECIFICATIONS:\n\u2022 Finished Quilt Size: 64\" x 64\" Throw / Wall Hanging\n\u2022 Block Size: 24\" x 24\" Center Star Medallion\n\u2022 Skill Level: Confident Beginner to Intermediate\n\n\ud83d\udcc4 FORMAT: 12-Page Illustrated PDF Guide with 1/4\" Seam Allowance Diagrams, Fabric Yardage Chart, and Rotary Cutting Cheat Sheets.\n\n\u2702\ufe0f INSTANT PDF ACCESS: Download immediately after purchase and start sewing tonight!",
+          "state": "draft",
+          "price": {
+            "amount": 850,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "quilt pattern pdf",
+            "barn star quilt",
+            "lone star pattern",
+            "patchwork blueprint",
+            "quilting printable",
+            "quilt block pattern",
+            "quilter gift",
+            "traditional quilt",
+            "cutting guide pdf",
+            "quilt template",
+            "epp pattern",
+            "sewing project",
+            "craft blueprint"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_0f3964da",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "barn-star-quilt-pattern-blueprint-printable-template-vector-kit-printable-patchwork-blueprint-lone-star-cutting-guide",
+        "title": "Barn Star Quilt Pattern Blueprint Printable Template Vector Kit, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Barn Star Quilt Pattern Blueprint Printable Template Vector Kit, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+          "handle": "barn-star-quilt-pattern-blueprint-printable-template-vector-kit-printable-patchwork-blueprint-lone-star-cutting-guide",
+          "bodyHtml": "<p>\ud83e\uddf5 MASTER THE TIMELESS TRADITIONAL BARN STAR QUILT</p>\n<p>Create an heirloom quilt that will be cherished across generations with our step-by-step Barn Star Blueprint. Engineered with clear vector diagrams, precision rotary cutting charts, and visual pressing arrows, this pattern takes all the frustration out of matching 8-point diamond seams.</p>\n<p>\u2728 WHAT'S INSIDE THE BLUEPRINT:</p>\n<ul><li>Complete fabric yardage requirements for Baby, Throw, and Queen sizes.</li>\n<li>Color-coded strip piecing charts that save hours of hand cutting.</li>\n<li>Full-size printable paper templates (100% scale - no enlargement needed).</li>\n<li>Master Pressing Roadmap to ensure your center points nest flat without bulk.</li>\n</ul><p>\ud83d\udcd0 PATTERN SPECIFICATIONS:</p>\n<ul><li>Finished Quilt Size: 64\" x 64\" Throw / Wall Hanging</li>\n<li>Block Size: 24\" x 24\" Center Star Medallion</li>\n<li>Skill Level: Confident Beginner to Intermediate</li>\n</ul><p>\ud83d\udcc4 FORMAT: 12-Page Illustrated PDF Guide with 1/4\" Seam Allowance Diagrams, Fabric Yardage Chart, and Rotary Cutting Cheat Sheets.</p>\n<p>\u2702\ufe0f INSTANT PDF ACCESS: Download immediately after purchase and start sewing tonight!</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "crafting",
+          "tags": [
+            "quilt pattern pdf",
+            "barn star quilt",
+            "lone star pattern",
+            "patchwork blueprint",
+            "quilting printable",
+            "quilt block pattern",
+            "quilter gift",
+            "traditional quilt",
+            "cutting guide pdf",
+            "quilt template",
+            "epp pattern",
+            "sewing project",
+            "craft blueprint"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "8.5",
+              "compareAtPrice": "10.62",
+              "sku": "YDS-BARN-STA-S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "8.5",
+              "compareAtPrice": "10.62",
+              "sku": "YDS-BARN-STA-M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "8.5",
+              "compareAtPrice": "10.62",
+              "sku": "YDS-BARN-STA-L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "8.5",
+              "compareAtPrice": "10.62",
+              "sku": "YDS-BARN-STA-XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "8.5",
+              "compareAtPrice": "10.62",
+              "sku": "YDS-BARN-STA-2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-09-barn-star-quilt-pattern_mockup.jpg",
+              "altText": "Barn Star Quilt Pattern Blueprint Printable Template Vector Kit, Printable Patchwork Blueprint, Lone Star Cutting Guide"
+            }
+          ],
+          "seo": {
+            "title": "Barn Star Quilt Pattern Blueprint Printable Template Vector Kit, Printable Patchwork Blueprint, Lone Star Cutting Guide | Premium Gift",
+            "description": "\ud83e\uddf5 MASTER THE TIMELESS TRADITIONAL BARN STAR QUILT\n\nCreate an heirloom quilt that will be cherished across generations with our step-by-step Barn Star Bluep"
+          }
+        }
+      },
+      "ready_to_publish": true
+    },
+    {
+      "id": "prod-10-wildflower-embroidery-pattern",
+      "cadre": "crafting",
+      "title": "Wildflower Meadow Embroidery Pattern Hand Stitching Transfer PDF, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+      "title_length": 120,
+      "tags": [
+        "quilt pattern pdf",
+        "barn star quilt",
+        "lone star pattern",
+        "patchwork blueprint",
+        "quilting printable",
+        "quilt block pattern",
+        "quilter gift",
+        "traditional quilt",
+        "cutting guide pdf",
+        "quilt template",
+        "epp pattern",
+        "sewing project",
+        "craft blueprint"
+      ],
+      "tag_count": 13,
+      "seo_score": 100,
+      "seo_grade": "A+",
+      "financials": {
+        "retail_price": 7.99,
+        "production_cost": 0.2,
+        "marketplace_fees": 1.21,
+        "net_profit": 6.58,
+        "margin_percent": 82.4
+      },
+      "specs": {
+        "canvas_file": "assets/canvases/prod-10-wildflower-embroidery-pattern_canvas.png",
+        "canvas_resolution": [
+          720,
+          720
+        ],
+        "canvas_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "mockup_file": "assets/mockups/prod-10-wildflower-embroidery-pattern_mockup.jpg",
+        "mockup_resolution": [
+          1600,
+          1200
+        ],
+        "is_300_dpi": true
+      },
+      "fulfillment": {
+        "primary_provider": "printify",
+        "blueprint_id": 638,
+        "print_provider_id": 29,
+        "payload_file": "payloads/prod-10-wildflower-embroidery-pattern_printify.json"
+      },
+      "etsy_package": {
+        "taxonomy_id": 2078,
+        "listing_type": "download",
+        "simulated_draft": {
+          "simulation": true,
+          "status": "draft",
+          "listing_id": 1827577443,
+          "title": "Wildflower Meadow Embroidery Pattern Hand Stitching Transfer PDF, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+          "description": "\ud83e\uddf5 MASTER THE TIMELESS TRADITIONAL BARN STAR QUILT\n\nCreate an heirloom quilt that will be cherished across generations with our step-by-step Barn Star Blueprint. Engineered with clear vector diagrams, precision rotary cutting charts, and visual pressing arrows, this pattern takes all the frustration out of matching 8-point diamond seams.\n\n\u2728 WHAT'S INSIDE THE BLUEPRINT:\n\u2022 Complete fabric yardage requirements for Baby, Throw, and Queen sizes.\n\u2022 Color-coded strip piecing charts that save hours of hand cutting.\n\u2022 Full-size printable paper templates (100% scale - no enlargement needed).\n\u2022 Master Pressing Roadmap to ensure your center points nest flat without bulk.\n\n\ud83d\udcd0 PATTERN SPECIFICATIONS:\n\u2022 Finished Quilt Size: 64\" x 64\" Throw / Wall Hanging\n\u2022 Block Size: 24\" x 24\" Center Star Medallion\n\u2022 Skill Level: Confident Beginner to Intermediate\n\n\ud83d\udcc4 FORMAT: 12-Page Illustrated PDF Guide with 1/4\" Seam Allowance Diagrams, Fabric Yardage Chart, and Rotary Cutting Cheat Sheets.\n\n\u2702\ufe0f INSTANT PDF ACCESS: Download immediately after purchase and start sewing tonight!",
+          "state": "draft",
+          "price": {
+            "amount": 799,
+            "divisor": 100,
+            "currency_code": "USD"
+          },
+          "quantity": 999,
+          "tags": [
+            "quilt pattern pdf",
+            "barn star quilt",
+            "lone star pattern",
+            "patchwork blueprint",
+            "quilting printable",
+            "quilt block pattern",
+            "quilter gift",
+            "traditional quilt",
+            "cutting guide pdf",
+            "quilt template",
+            "epp pattern",
+            "sewing project",
+            "craft blueprint"
+          ],
+          "taxonomy_id": 2078,
+          "url": "https://www.etsy.com/listing/simulated/etsy_sim_ea0b0d4c",
+          "created_timestamp": 1794182443,
+          "note": "Simulated Etsy draft listing created (Live API Key not active)."
+        }
+      },
+      "shopify_package": {
+        "handle": "wildflower-meadow-embroidery-pattern-hand-stitching-transfer-pdf-printable-patchwork-blueprint-lone-star-cutting-guide",
+        "title": "Wildflower Meadow Embroidery Pattern Hand Stitching Transfer PDF, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+        "variants_count": 5,
+        "shopify_product_data": {
+          "title": "Wildflower Meadow Embroidery Pattern Hand Stitching Transfer PDF, Printable Patchwork Blueprint, Lone Star Cutting Guide",
+          "handle": "wildflower-meadow-embroidery-pattern-hand-stitching-transfer-pdf-printable-patchwork-blueprint-lone-star-cutting-guide",
+          "bodyHtml": "<p>\ud83e\uddf5 MASTER THE TIMELESS TRADITIONAL BARN STAR QUILT</p>\n<p>Create an heirloom quilt that will be cherished across generations with our step-by-step Barn Star Blueprint. Engineered with clear vector diagrams, precision rotary cutting charts, and visual pressing arrows, this pattern takes all the frustration out of matching 8-point diamond seams.</p>\n<p>\u2728 WHAT'S INSIDE THE BLUEPRINT:</p>\n<ul><li>Complete fabric yardage requirements for Baby, Throw, and Queen sizes.</li>\n<li>Color-coded strip piecing charts that save hours of hand cutting.</li>\n<li>Full-size printable paper templates (100% scale - no enlargement needed).</li>\n<li>Master Pressing Roadmap to ensure your center points nest flat without bulk.</li>\n</ul><p>\ud83d\udcd0 PATTERN SPECIFICATIONS:</p>\n<ul><li>Finished Quilt Size: 64\" x 64\" Throw / Wall Hanging</li>\n<li>Block Size: 24\" x 24\" Center Star Medallion</li>\n<li>Skill Level: Confident Beginner to Intermediate</li>\n</ul><p>\ud83d\udcc4 FORMAT: 12-Page Illustrated PDF Guide with 1/4\" Seam Allowance Diagrams, Fabric Yardage Chart, and Rotary Cutting Cheat Sheets.</p>\n<p>\u2702\ufe0f INSTANT PDF ACCESS: Download immediately after purchase and start sewing tonight!</p>",
+          "vendor": "YourDigitalSpace",
+          "productType": "crafting",
+          "tags": [
+            "quilt pattern pdf",
+            "barn star quilt",
+            "lone star pattern",
+            "patchwork blueprint",
+            "quilting printable",
+            "quilt block pattern",
+            "quilter gift",
+            "traditional quilt",
+            "cutting guide pdf",
+            "quilt template",
+            "epp pattern",
+            "sewing project",
+            "craft blueprint"
+          ],
+          "status": "DRAFT",
+          "variants": [
+            {
+              "title": "S",
+              "price": "7.99",
+              "compareAtPrice": "9.99",
+              "sku": "YDS-WILDFLOW-S",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "M",
+              "price": "7.99",
+              "compareAtPrice": "9.99",
+              "sku": "YDS-WILDFLOW-M",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "L",
+              "price": "7.99",
+              "compareAtPrice": "9.99",
+              "sku": "YDS-WILDFLOW-L",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "XL",
+              "price": "7.99",
+              "compareAtPrice": "9.99",
+              "sku": "YDS-WILDFLOW-XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            },
+            {
+              "title": "2XL",
+              "price": "7.99",
+              "compareAtPrice": "9.99",
+              "sku": "YDS-WILDFLOW-2XL",
+              "inventoryQuantity": 50,
+              "requiresShipping": true
+            }
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/1nc0gn30/storefront-catalog/main/assets/mockups/prod-10-wildflower-embroidery-pattern_mockup.jpg",
+              "altText": "Wildflower Meadow Embroidery Pattern Hand Stitching Transfer PDF, Printable Patchwork Blueprint, Lone Star Cutting Guide"
+            }
+          ],
+          "seo": {
+            "title": "Wildflower Meadow Embroidery Pattern Hand Stitching Transfer PDF, Printable Patchwork Blueprint, Lone Star Cutting Guide | Premium Gift",
+            "description": "\ud83e\uddf5 MASTER THE TIMELESS TRADITIONAL BARN STAR QUILT\n\nCreate an heirloom quilt that will be cherished across generations with our step-by-step Barn Star Bluep"
+          }
+        }
+      },
+      "ready_to_publish": true
+    }
+  ]
+}
