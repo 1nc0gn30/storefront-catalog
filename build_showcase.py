@@ -103,7 +103,7 @@ html_content = f"""<!DOCTYPE html>
             "name": "What payment methods are accepted for commercial lifetime access?",
             "acceptedAnswer": {{
               "@type": "Answer",
-              "text": "We accept credit cards, Apple Pay, and Google Pay via Stripe, as well as on-chain cryptocurrency payments via the DePay Solana gateway with zero processing friction."
+              "text": "We accept credit cards, Apple Pay, and Google Pay via Stripe, as well as on-chain cryptocurrency payments via the voluntary Solana tip address with zero processing friction."
             }}
           }}
         ]
@@ -111,8 +111,7 @@ html_content = f"""<!DOCTYPE html>
     ]
   }}
   </script>
-  <script defer src="https://integrate.depay.com/widgets/v13.js"></script>
-
+  
   <style>
     :root {{
       --bg: #09090b;
@@ -1196,7 +1195,7 @@ html_content = f"""<!DOCTYPE html>
           <span>🔒 PREVIEW MODE</span>
         </div>
         <button id="headerUnlockBtn" class="btn-action" style="background: rgba(212,175,55,0.15); border-color: var(--border-gold); color: var(--gold-bright);">
-          ⭐ Unlock Pro License ($19)
+          ☕ Buy Us a Coffee (Optional)
         </button>
       </div>
     </header>
@@ -1225,8 +1224,8 @@ html_content = f"""<!DOCTYPE html>
 
       <div class="banner-cta-card">
         <div class="pricing-row">
-          <span class="price-regular">$79</span>
-          <span class="price-discounted">$19</span>
+          <span class="price-regular">Open</span>
+          <span class="price-discounted">Free</span>
           <span class="price-badge">SAVE 76%</span>
         </div>
         <div style="font-size: 0.78rem; color: var(--text-dim); margin-bottom: 0.4rem;">
@@ -1377,7 +1376,7 @@ html_content = f"""<!DOCTYPE html>
             Instantly download all 10 verified Printify JSON payloads, 300 DPI high-res print master canvases, and 13-tag Etsy ranking suites for just $19 lifetime.
           </div>
           <button class="btn-stripe" style="max-width: 320px;" onclick="launchCheckout('stripe')">
-            ⭐ Unlock All 10 Payloads ($19 Lifetime)
+            ✦ All 10 Payloads Unlocked (Free)
           </button>
         </div>
       </div>
@@ -1469,8 +1468,8 @@ html_content = f"""<!DOCTYPE html>
       </div>
 
       <div class="pricing-row" style="justify-content: center; margin-bottom: 1rem;">
-        <span class="price-regular">$79</span>
-        <span class="price-discounted">$19</span>
+        <span class="price-regular">Open</span>
+        <span class="price-discounted">Free</span>
         <span class="price-badge">SAVE 76%</span>
       </div>
 
