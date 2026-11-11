@@ -2,7 +2,7 @@
 """Build 100% Open-Access Web Showcase for YourDigitalSpace Master Catalog.
 
 Reads catalog_manifest.json and writes public/index.html with zero paywalls,
-zero DePay widgets, interactive run-rate calculator, and Printify payload export.
+zero third-party payment popups, interactive run-rate calculator, and Printify payload export.
 Zero external dependencies.
 """
 
