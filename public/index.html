@@ -1151,7 +1151,6 @@
 <div id="zoth-coffee-support-bar" style="background: linear-gradient(90deg, rgba(16,185,129,0.12), rgba(212,175,55,0.14)); border-bottom: 1px solid rgba(212,175,55,0.35); padding: 8px 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; z-index: 9999;">
   <span style="color: #10B981; font-weight: 800;">✦ 100% FREE &amp; OPEN ACCESS · ZERO PAYWALLS</span>
   <a href="https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X" target="_blank" rel="noopener noreferrer" style="background: #D4AF37; color: #08080B; padding: 4px 12px; border-radius: 6px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">☕ Buy Us a Coffee (Stripe)</a>
-  <a href="solana:GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" onclick="if(navigator.clipboard){navigator.clipboard.writeText('GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK');this.textContent='✓ Copied GG2eQb...dXoK!';}" style="background: rgba(20,241,149,0.15); color: #14F195; border: 1px solid rgba(20,241,149,0.45); padding: 4px 12px; border-radius: 6px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">◎ Solana Tip (GG2e...dXoK)</a>
 </div>
 
   <div class="bg-glow"></div>
@@ -1210,15 +1209,12 @@
           ☕ Support Autonomous Development
         </div>
         <div style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 0.8rem;">
-          Free and open tools forever. If these listings help you build, consider buying us a coffee or sending a Solana tip.
+          Free and open tools forever. If these listings help you build, consider buying us a coffee via Stripe.
         </div>
 
         <div class="checkout-rail-buttons">
           <a class="btn-stripe" href="https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
             <span>☕ Buy Us a Coffee (Stripe)</span>
-          </a>
-          <a class="btn-solana" href="solana:GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
-            <span>◎ Solana Tip (GG2eQb…dXoK)</span>
           </a>
         </div>
       </div>
@@ -1282,7 +1278,7 @@
 
         <div class="calc-result-box">
           <div class="calc-result-label">Monthly Net Profit</div>
-          <div id="resMonthlyNet" class="calc-result-num">$0,112</div>
+          <div id="resMonthlyNet" class="calc-result-num">$19,112</div>
         </div>
 
         <div class="calc-result-box">
@@ -1324,7 +1320,7 @@
       </div>
 
       <div class="vault-code-container">
-        <pre id="blurredPayload" class="vault-code-pre" style="margin: 0; max-height: 400px; overflow-y: auto;">// MASTER PRINTIFY PRODUCTION PAYLOAD SCHEMA (100% UNLOCKED)
+        <pre id="masterPayloadPreview" class="vault-code-pre" style="margin: 0; max-height: 400px; overflow-y: auto;">// MASTER PRINTIFY PRODUCTION PAYLOAD SCHEMA (100% UNLOCKED)
 {
   "store": "YourDigitalSpace",
   "production_blueprint_id": 12,
@@ -1634,9 +1630,7 @@
     function launchCheckout(rail) {
       if (rail === 'stripe') {
         window.open('https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X', '_blank');
-      } else if (rail === 'solana') {
-        window.open('solana:GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK', '_blank');
-      }
+      } 
     }
 
     function toggleTheme() {
@@ -1662,7 +1656,7 @@
           toolName: "YourDigitalSpace POD Showcase",
           tagline: "Interactive live 3D showcase and catalog viewer for Print-on-Demand products!",
           accentColor: "#EC4899",
-          steps: [{"icon": "\ud83c\udfea", "title": "Virtual Storefront Gallery", "desc": "Browse and interact with an avant-garde catalog of custom hoodies, posters, and accessories."}, {"icon": "\ud83e\uddca", "title": "Interactive 3D Product Views", "desc": "Spin and inspect products in full 3D to see how designs look from every angle."}, {"icon": "\ud83d\udcb3", "title": "Zero-Friction Checkout", "desc": "Connects directly to Stripe and Solana crypto rails with 100% unlocked open access."}]
+          steps: [{"icon": "\ud83c\udfea", "title": "Virtual Storefront Gallery", "desc": "Browse and interact with an avant-garde catalog of custom hoodies, posters, and accessories."}, {"icon": "\ud83e\uddca", "title": "Interactive 3D Product Views", "desc": "Spin and inspect products in full 3D to see how designs look from every angle."}, {"icon": "\ud83d\udcb3", "title": "Zero-Friction Checkout", "desc": "Connects directly to Stripe with 100% unlocked open access."}]
         });
       }
     });

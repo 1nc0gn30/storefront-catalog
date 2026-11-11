@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+"""Storefront Catalog CLI Entrypoint."""
+import os
+import subprocess
+import sys
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.exit(subprocess.call([sys.executable, os.path.join(ROOT, "server.py"), *sys.argv[1:]]))

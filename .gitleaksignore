@@ -1,0 +1,3 @@
+# False positive: Printify mug blueprint slug ("ceramic_mug_15oz") in historical commit
+c031bc096e7bb671f1678f484eaab3059037e265:build_catalog.py:generic-api-key:71
+c031bc096e7bb671f1678f484eaab3059037e265:build_catalog.py:generic-api-key:82

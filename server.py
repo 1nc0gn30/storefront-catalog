@@ -141,7 +141,7 @@ class SovereignCatalogHandler(SimpleHTTPRequestHandler):
             return
         sys.stderr.write(f"[{self.log_date_time_string()}] {args[0]}\n")
 
-def run(host="127.0.0.1", port=8118):
+def run(host="127.0.0.1", port=8143):
     server_address = (host, port)
     httpd = HTTPServer(server_address, SovereignCatalogHandler)
     print(f"✦ YourDigitalSpace Sovereign Catalog running on http://{host}:{port}")
@@ -149,33 +149,41 @@ def run(host="127.0.0.1", port=8118):
     print(f"  Catalog API:     http://{host}:{port}/api/catalog")
     print(f"  Products API:    http://{host}:{port}/api/products")
 
-    # Start companion listener on alternate port (8143 if port==8118, 8118 if port==8143)
-    companion_port = 8143 if port == 8118 else (8118 if port == 8143 else None)
-    companion = None
-    if companion_port:
-        try:
-            companion = HTTPServer((host, companion_port), SovereignCatalogHandler)
-            threading.Thread(target=companion.serve_forever, daemon=True).start()
-            print(f"  Companion mirror bound on http://{host}:{companion_port}")
-        except Exception:
-            pass
-
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
         print("\nStopping catalog daemon...")
-        if companion:
-            try:
-                companion.server_close()
-            except Exception:
-                pass
         httpd.server_close()
+
+
+def status_payload(port=8143):
+    return {
+        "service": "storefront-catalog",
+        "version": "2.5.0",
+        "status": "ready",
+        "store_name": catalog_data.get("store_name", "YourDigitalSpace"),
+        "default_port": port,
+        "local_url": f"http://127.0.0.1:{port}",
+        "total_listings": catalog_data.get("total_listings", 10),
+        "blended_margin": catalog_data.get("portfolio_financials", {}).get("blended_net_margin", 62.6),
+    }
+
 
 if __name__ == "__main__":
     import argparse
-    default_port = int(os.environ.get("PORT", 8118))
-    parser = argparse.ArgumentParser(description="YourDigitalSpace Sovereign Showcase Daemon")
-    parser.add_argument("--host", default="127.0.0.1", help="Host interface to bind")
-    parser.add_argument("--port", type=int, default=default_port, help="Port to bind (default: 8118)")
+    default_port = int(os.environ.get("PORT", 8143))
+    parser = argparse.ArgumentParser(description="YourDigitalSpace POD Showcase Daemon & CLI")
+    parser.add_argument("--version", action="version", version="storefront-catalog 2.5.0")
+    parser.add_argument("--host", default="127.0.0.1", help="Host interface to bind (default: 127.0.0.1)")
+    parser.add_argument("--port", type=int, default=default_port, help="Port to bind (default: 8143)")
+    parser.add_argument("--status", action="store_true", help="Print catalog status and exit")
+    parser.add_argument("--json", action="store_true", help="Print JSON catalog summary and exit")
     args = parser.parse_args()
+    if args.status or args.json:
+        payload = status_payload(args.port)
+        if args.json:
+            print(json.dumps(payload, indent=2))
+        else:
+            print(f"storefront-catalog v{payload['version']} | {payload['store_name']} | {payload['total_listings']} listings | Blended margin: {payload['blended_margin']}% | Port: {payload['default_port']}")
+        sys.exit(0)
     run(host=args.host, port=args.port)
