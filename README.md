@@ -133,8 +133,11 @@ python3 -m pytest -q tests/
 
 ## Support
 
-This catalog and showcase are 100% free and open-source with zero paywalls or feature gates. Optional support: [Buy Us a Coffee (Stripe)](https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X).
+This catalog and showcase are 100% free and open-source with zero paywalls or feature gates.
 
-## License
+- Optional support: [Buy Us a Coffee (Stripe)](https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X)
+- Solana Tip Address: `GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK` (`solana:GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK`)
 
-MIT License — Engineered by **1nc0gn30** (`@1nc0gn30`, `https://1nc0gn30.si`) • **NullAI** (`https://nullai.tech`).
+## License & Attribution
+
+MIT License — Engineered by **Neal Frazier Tech** (`@1nc0gn30`, [github.com/1nc0gn30/storefront-catalog](https://github.com/1nc0gn30/storefront-catalog)) • [NullAI Platform](https://nullai.tech) • Cataloged in [Zoth Studio](https://zoth.nullai.tech).
