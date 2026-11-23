@@ -35,7 +35,7 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebApplication",
+        "@type": ["WebApplication", "SoftwareApplication"],
         "name": "YourDigitalSpace Etsy POD Catalog Showcase",
         "url": "https://yourdigitalspace.nullai.tech/",
         "applicationCategory": "BusinessApplication",
@@ -239,7 +239,7 @@
       flex-wrap: wrap;
     }
 
-    .pro-badge {
+    .open-badge {
       display: inline-flex;
       align-items: center;
       gap: 0.4rem;
@@ -253,7 +253,7 @@
       transition: all 0.2s ease;
     }
 
-    .pro-badge.active {
+    .open-badge.active {
       background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(255, 215, 0, 0.1));
       border: 1px solid var(--gold);
       color: var(--gold-bright);
@@ -1052,22 +1052,6 @@
       margin-bottom: 1.25rem;
     }
 
-    .modal-key-input {
-      width: 100%;
-      padding: 0.75rem 1rem;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: #09090b;
-      color: #ffffff;
-      font-size: 0.9rem;
-      margin-bottom: 0.75rem;
-      outline: none;
-    }
-
-    .modal-key-input:focus {
-      border-color: var(--gold);
-    }
-
     /* Footer */
     footer {
       border-top: 1px solid var(--border);
@@ -1183,7 +1167,7 @@
       </div>
 
       <div class="header-actions">
-        <div id="proBadge" class="pro-badge active">
+        <div id="openAccessBadge" class="open-badge active">
           <span>✦ 100% FREE & OPEN ACCESS</span>
         </div>
         <button id="themeToggleBtn" type="button" class="btn-action" onclick="toggleTheme()" style="width: auto; padding: 0.45rem 0.9rem; cursor: pointer;">
@@ -1434,17 +1418,6 @@
     let currentFilter = 'all';
     let currentSearch = '';
     let selectedProduct = null;
-    let isProActive = true;
-
-    // 100% Free & Open Access Initialization
-    function initLicense() {
-      isProActive = true;
-      const proBadge = document.getElementById('proBadge');
-      if (proBadge) {
-        proBadge.classList.add('active');
-        proBadge.innerHTML = '<span>✦ 100% FREE & OPEN ACCESS</span>';
-      }
-    }
 
     function renderProducts() {
       const grid = document.getElementById('productsGrid');
