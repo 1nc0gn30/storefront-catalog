@@ -1147,7 +1147,7 @@
 <div id="zoth-coffee-support-bar" style="background: linear-gradient(90deg, #091310, #12100B); border-bottom: 1px solid rgba(212,175,55,0.35); padding: 8px 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; z-index: 9999; max-width: 100%; box-sizing: border-box;">
   <span style="color: #10B981; font-weight: 800;">✦ 100% FREE &amp; OPEN ACCESS · ZERO PAYWALLS</span>
   <a href="https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X" target="_blank" rel="noopener noreferrer" style="background: #D4AF37; color: #08080B; padding: 4px 12px; border-radius: 6px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">☕ Buy Us a Coffee (Stripe)</a>
-  <a href="solana:GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" title="Solana Tip Address: GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" onclick="if(navigator.clipboard){navigator.clipboard.writeText('GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK');this.textContent='✓ Copied GG2eQb...dXoK!';}" style="background: #047857; color: #FFFFFF; border: 1px solid rgba(255,255,255,0.28); padding: 4px 12px; border-radius: 6px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">◎ Solana Tip (GG2e...dXoK)</a>
+  <a href="solana:GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" title="Solana Tip Address: GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" onclick="if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText('GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK').catch(function(){});}this.textContent='✓ Copied GG2eQb...dXoK!';" style="background: #047857; color: #FFFFFF; border: 1px solid rgba(255,255,255,0.28); padding: 4px 12px; border-radius: 6px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">◎ Solana Tip (GG2e...dXoK)</a>
 </div>
 
   <div class="bg-glow"></div>
@@ -1551,15 +1551,32 @@
       }
     }
 
+    function safeCopyText(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => {
+          try {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+          } catch (_) {}
+        });
+      }
+    }
+
     function copyTagsToClipboard() {
       if (!selectedProduct) return;
-      navigator.clipboard.writeText(selectedProduct.tags.join(', '));
+      safeCopyText(selectedProduct.tags.join(', '));
       alert('13/13 SEO Tags copied to clipboard!');
     }
 
     function copyDescriptionToClipboard() {
       if (!selectedProduct) return;
-      navigator.clipboard.writeText(selectedProduct.description);
+      safeCopyText(selectedProduct.description);
       alert('Full listing description copied to clipboard!');
     }
 
@@ -1609,7 +1626,7 @@
           "grandmas garden", "grandma crewneck", "mom birthday gift"
         ]
       };
-      navigator.clipboard.writeText(JSON.stringify(payloadSample, null, 2));
+      safeCopyText(JSON.stringify(payloadSample, null, 2));
       alert('Master Printify Payload Schema copied to clipboard!');
     }
 
